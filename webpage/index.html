@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Google Assistant Demo</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" href="assets/icon-16.png" type="image/x-icon">
+  <link rel="icon" href="assets/icon-16.png" type="image/x-icon">
+</head>
+
+<body>  
+<div class="container">
+    <div class="row">
+      <h4><p id="connection_status">Wifi</p></h4>
+      <form name="wifi" id="wifi" method="post" action="" id="WIFI_FORM">
+        <select name="ssid" id="ssid" onchange="selectNetwork(this)"></select>
+        <div class="input-group">
+          <p id="password_field"></p>
+        </div>
+        <div class="input-group input-group-icon">
+          <p id="connect_button"></p>
+          <p id="antenna_button"></p>
+        </div>
+      </form>
+    </div>
+</div>
+
+<p></p>
+
+<div class="container">
+  <div class="row">
+    <form>
+        <h4><p id="auth_status">Checking Google Assistant status...</p></h4>
+        <p id="auth_message">Please wait...</p>
+        <p id="auth_input"></p>
+    </form>
+  </div>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/socket.io.min.js"></script>
+<script src="assets/js/main.js"></script>  
+
+</body>
+<div class="footer">
+  <p>
+    Enjoy!</a>
+  </p>
+</div>
+</html>
