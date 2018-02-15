@@ -6,8 +6,6 @@ This is a demo project for running Google Assistant on a C.H.I.P. Pro Dev Kit. I
 
 This demo requires the user to grant access to their Google account. To set this up, users connect C.H.I.P. Pro to a desktop computer with a USB cable and access a specific website that is running on the device. This site allows users to configure the WiFi settings and authorize C.H.I.P. Pro to access Google.
 
-For ease of use, [a pre-made CHP image](https://github.com/NextThingCo/google-assistant-demo/releases/) is included that can be flashed directly to the device so that no compiling is required. See the "Getting Started" instructions below.
-
 ### Requirements:
 
  * 1 x C.H.I.P. Pro Dev kit
@@ -20,9 +18,7 @@ For ease of use, [a pre-made CHP image](https://github.com/NextThingCo/google-as
 
 ### Getting Started:
 
-The quickest way to use Google Assistant on your C.H.I.P. Pro is to [download the pre-made Google voice assistant CHP file](https://github.com/NextThingCo/google-assistant-demo/releases/) and use the [online web flasher](https://docs.getchip.com/chip_pro_devkit.html#flash-with-an-os) to copy it to your Dev Kit. Be sure to select the “Choose an Image...” button on the web flasher and direct it to the Google Assistant Demo CHP file. Follow [this link](https://docs.getchip.com/chip_pro_devkit.html#flashing-process) for more instructions on using the web flasher.
-
-Once you have flashed your C.H.I.P. Pro Dev Kit, simply connect a speaker or some headphones, reboot, and listen for the audio instructions.
+Once you have installed the software on your device, connect a speaker or headphones to it, start the application, and listen for the audio instructions.
 
 The voice instructions will instruct you to attach the Dev Kit to your desktop computer with a USB cable and access a configuration web page. The address should either be http://192.168.81.1 or http://192.168.82.1. Make sure to wait for the audio instructions to tell you when it is ready for you to connect.
 
